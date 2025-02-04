@@ -1,0 +1,11 @@
+# Ignorar arquivos de ambiente virtual
+venv/
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de configuração local
+.env
+.vscode/
+
+# Ignorar arquivos de histórico gerados pelo código
+historico_conversas.json
