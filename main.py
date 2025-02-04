@@ -9,7 +9,7 @@ import os
 import threading
 
 # Configuração da API do Gemini
-api_key = "AIzaSyDiiyWBmj6kDxSaQrWKQPZhk7di36y6Xz4"
+api_key = "Sua API KEY"
 genai.configure(api_key=api_key)
 
 # Função para carregar o histórico de conversas
@@ -154,7 +154,7 @@ def sair_programa():
 
 # Configuração da janela principal com ttkbootstrap
 janela = ttk.Window(themename="minty")
-janela.title("Assistente AB Areias")
+janela.title("Assistente IA")
 janela.geometry("800x900")  # Tamanho ajustado para 800x900
 
 # Adiciona o ícone da janela
@@ -212,7 +212,7 @@ label_carregamento.pack(pady=5)
 # Mensagem inicial do assistente
 chat_area.config(state=tk.NORMAL)
 chat_area.insert(tk.END, "Assistente\n", "assistant_bold")
-chat_area.insert(tk.END, "Bem-vindo ao Assistente AB Areias! Em que posso ajudar?\n\n", "assistant_tag")
+chat_area.insert(tk.END, "Bem-vindo ao Assistente! Em que posso ajudar?\n\n", "assistant_tag")
 chat_area.config(state=tk.DISABLED)
 
 # Configuração de redimensionamento da janela
