@@ -9,7 +9,7 @@ import os
 import threading
 
 # Configuração da API do Gemini
-api_key = "Sua API KEY"
+api_key = "YOUR_API_KEY"
 genai.configure(api_key=api_key)
 
 # Função para carregar o histórico de conversas
